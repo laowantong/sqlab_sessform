@@ -1,0 +1,33 @@
+%%mocodo --colors pond --flex 0
+concurrentes, 0N entreprise, 0N entreprise
+entreprise: eid, raison, activité, num_voie, voie, ville
+employer, 01 client, 0N entreprise
+client: cid, nom, sexe, âge, num_voie, voie, ville, tél
+parrainer, 01 client, 0N [-cid_par] client: date_par
+:
+
+:
+:
+intéresser, 1N entreprise, 1N thème
+:
+prérequis, 0N formation, 0N [-fid_req] formation
+inscrire, 0N client, 0N session: date
+session: sid, début, ville, nb_inscrits
+:
+
+
+:
+:
+thème: tid, libellé
+df1, 11 formation, 1N thème
+formation: fid, titre, nb_jours, nb_anims, prix, prime
+df2, 11 session, 1N formation
+animer, 1N session, 1N animateur
+diriger, 11 session, 0N [-aid_resp] animateur
+
+:
+maîtriser, 1N animateur, 0N thème
+:
+:
+:
+animateur: aid, nom, sexe, âge, job, num_voie, voie, ville, tél
