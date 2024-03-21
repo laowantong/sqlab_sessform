@@ -52,7 +52,7 @@
 - **Exercice 20**. Nombre moyen d'inscrits.  
   Énoncé complet : 085. Solution : 267107579243451.
 - **Exercice 21**. Amplitude de la prime de responsabilité (différence entre primes maximale et minimale).  
-  Énoncé complet : 058. Solution : 1626001393571.
+  Énoncé complet : 059. Solution : 60095328846191.
 - **Exercice 22**. Nombre de clients employés d'entreprise.  
   Énoncé complet : 086. Solution : 229235892734731.
 - **Exercice 23**. Nombre de clients employés d'entreprise.  
