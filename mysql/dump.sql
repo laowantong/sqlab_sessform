@@ -195,7 +195,12 @@ BEGIN
     SELECT
         COALESCE(
             MAX(CONVERT(AES_DECRYPT(msg, token) USING utf8mb4)),
-            CONVERT("🔴 Aucun message spécifique n''est prévu pour ce token.\nRaisons possibles :\n1. Accident de copier-coller (double-cliquez sur le token pour en faciliter la sélection).\n2. Formule de calcul du token non mise à jour.\n3. Emoji 👀 laissé à zéro ou remplacé par la mauvaise valeur.\n4. Erreur logique inédite. Bravo pour votre créativité ! Maintenant relisez attentivement l''énoncé et, si les symptômes persistent, consultez votre enseignant." USING utf8mb4) -- fallback message
+            CONVERT("🔴 Aucun message spécifique n''est prévu pour ce token.
+Raisons possibles :
+1. Accident de copier-coller (double-cliquez sur le token pour en faciliter la sélection).
+2. Formule de calcul du token non mise à jour.
+3. Emoji 👀 laissé à zéro ou remplacé par la mauvaise valeur.
+4. Erreur logique inédite. Bravo pour votre créativité ! Maintenant relisez attentivement l''énoncé et, si les symptômes persistent, consultez votre enseignant." USING utf8mb4) -- fallback message
         ) INTO message
     FROM sqlab_msg;
 
@@ -5204,9 +5209,9 @@ INSERT INTO sqlab_info (name, value) VALUES
   ('message_count', '513'),
   ('sqlab_database_language', 'fr'),
   ('dbms', 'MySQL'),
-  ('dbms_version', '8.3.0'),
-  ('sqlab_version', '0.4.0'),
-  ('created_at', '2024-03-13T18:53:22.170770')
+  ('dbms_version', '8.0.31'),
+  ('sqlab_version', '0.5.0'),
+  ('created_at', '2024-03-21T13:55:04.699149')
 ;
 
 

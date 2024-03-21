@@ -1,4 +1,4 @@
-# SQLab : sessions de formation
+# 🍉 Sessions de formation
 
 _Une collection d'exercices et un thriller relationnel pour apprendre et pratiquer SQL._
 
@@ -6,9 +6,9 @@ _Une collection d'exercices et un thriller relationnel pour apprendre et pratiqu
 
 ## Principe
 
-Une base SQLab contient à la fois des **données** et des **exercices de SQL** sur ces données.
+Cette base a été générée par [SQLab](https://github.com/laowantong/sqlab) : elle contient à la fois des **données** et des **exercices de SQL** sur ces données.
 
-Les tables sur lesquelles vous travaillerez sont les suivantes :
+Les tables-métier (celles sur lesquelles vous travaillerez) sont les suivantes :
 
 ![sessform_mld](assets/sessform_mld.svg)
 
@@ -57,13 +57,13 @@ Trois cas peuvent alors se présenter :
 
 La base de données est actuellement disponible en deux versions :
 
-1. Pour MySQL 8 ou supérieur : téléchargez [mysql/dump.sql](https://raw.githubusercontent.com/laowantong/sqlab_sessform/main/mysql/dump.sql) et exécutez :
+1. Pour MySQL 8 ou supérieur : [téléchargez mysql/dump.sql](https://raw.githubusercontent.com/laowantong/sqlab_sessform/main/mysql/dump.sql) (clic droit / « Télécharger le fichier lien sous… ») et exécutez :
     ```bash
     mysql -u username -p < dump.sql
     mysql -u username -p sessform
     ```
 
-2. Pour PostgreSQL : téléchargez [postgresql/dump.sql](https://raw.githubusercontent.com/laowantong/sqlab_sessform/main/postgresql/dump.sql) et exécutez :
+2. Pour PostgreSQL : [téléchargez postgresql/dump.sql](https://raw.githubusercontent.com/laowantong/sqlab_sessform/main/postgresql/dump.sql) (clic droit / « Télécharger le fichier lien sous… ») et exécutez :
     ```bash
    psql -U username -f dump.sql
    psql -U username sessform
