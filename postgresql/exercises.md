@@ -7,7 +7,7 @@
 - **Exercice 2**. Liste sans redondance des activités des entreprises.  
   Énoncé complet : 072. Solution : 193463557666227.
 - **Exercice 3**. Triez la table `formation` par thème (`tid`) croissant, puis prix décroissant, puis nombre de jours croissant.  
-  Énoncé complet : 025. Solution : 177410776430469.
+  Énoncé complet : 025. Solution : 183113509967069.
 
 ### Restriction
 
@@ -52,13 +52,13 @@
 - **Exercice 20**. Nombre moyen d'inscrits.  
   Énoncé complet : 085. Solution : 267012322877659.
 - **Exercice 21**. Amplitude de la prime de responsabilité (différence entre primes maximale et minimale).  
-  Énoncé complet : 058. Solution : 1889179276061.
+  Énoncé complet : 059. Solution : 59808599954897.
 - **Exercice 22**. Nombre de clients employés d'entreprise.  
   Énoncé complet : 086. Solution : 229235892734731.
 - **Exercice 23**. Nombre de clients employés d'entreprise.  
   Énoncé complet : 075. Solution : 35875823604479.
 - **Exercice 24**. Nombre d'animateurs ayant exercé la responsabilité d'au moins une session.  
-  Énoncé complet : 044. Solution : 41309657266481.
+  Énoncé complet : 044. Solution : 78667387772607.
 
 ### Agrégation sans `GROUP BY` imbriquée
 
@@ -70,16 +70,16 @@
 ###  `GROUP BY` sans `HAVING`
 
 - **Exercice 27**. Pour chaque emploi, nombre d'animateurs qui l'occupent.  
-  Énoncé complet : 039. Solution : 233808147721964.
+  Énoncé complet : 039. Solution : 213717463157466.
 - **Exercice 28**. Pour chaque session de Nice, moyenne d'âge des animateurs.  
-  Énoncé complet : 005. Solution : 27307432946912.
+  Énoncé complet : 005. Solution : 27307432946935.
 
 ### `GROUP BY` avec `HAVING`
 
 - **Exercice 29**. Activités exercées par au moins trois entreprises.  
-  Énoncé complet : 021. Solution : 258931831344925.
+  Énoncé complet : 021. Solution : 258931831344922.
 - **Exercice 30**. Animateurs parisiens ayant été responsables de plus de quatre sessions parisiennes, avec le nombre de celles-ci.  
-  Énoncé complet : 068. Solution : 48024087451568.
+  Énoncé complet : 068. Solution : 48024087451588.
 
 ### Relation symétrique
 
@@ -94,18 +94,18 @@
 ### Questions _non_ classées par difficulté
 
 - **Exercice 34**. Pour chaque entreprise, nombre d'employés qui sont clients de la société de formation. Colonnes attendues : identifiant et raison de l'entreprise, nombre d'employés.  
-  Énoncé complet : 155. Solution : 9111771762335.
+  Énoncé complet : 155. Solution : 12529280485280.
 - **Exercice 35**. Titre des formations sans pré-requis.  
   Énoncé complet : 165. Solution : 245953508436144.
 - **Exercice 36**. Nombre de formations pour chaque thème, avec l'identifiant et le libellé de celui-ci.  
-  Énoncé complet : 195. Solution : 212158702623071.
+  Énoncé complet : 195. Solution : 212158702622992.
 - **Exercice 37**. Pour chaque animateur ayant été responsable d'au moins 5 sessions parisiennes, nombre total de subordonnés distincts dans ces sessions, classés par nombre de subordonnés décroissant.  
-  Énoncé complet : 124. Solution : 181703762557071.
+  Énoncé complet : 124. Solution : 181703762544442.
 - **Exercice 38**. Deux formations ont le même titre. Trouvez celui-ci, ainsi que l'identifiant de ces formations.  
   Énoncé complet : 111. Solution : 31366715971326.
 - **Exercice 39**. Nombre de sessions pour chaque thème, avec l'identifiant et le libellé de celui-ci.  
-  Énoncé complet : 138. Solution : 158529861132039.
+  Énoncé complet : 138. Solution : 158529861128224.
 - **Exercice 40**. Pourcentage de sessions placées sous la responsabilité d'une femme. La valeur cherchée doit être nommée `ratio` et comprise entre 0 et 100.  
-  Énoncé complet : 182. Solution : 194375321203169.
+  Énoncé complet : 182. Solution : 194375321202985.
 - **Exercice 41**. Vous avez trouvé un numéro de téléphone dont manque le dernier chiffre : « 07 00 55 55 7 ». Vous ne savez pas si son possesseur est un client ou un animateur. Renvoyez la liste des possibilités. Colonnes attendues : identifiant du possesseur, nom, type (client ou animateur) et téléphone.  
   Énoncé complet : 107. Solution : 158853303138975.

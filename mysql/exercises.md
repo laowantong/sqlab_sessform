@@ -7,7 +7,7 @@
 - **Exercice 2**. Liste sans redondance des activités des entreprises.  
   Énoncé complet : 072. Solution : 193463557666227.
 - **Exercice 3**. Triez la table `formation` par thème (`tid`) croissant, puis prix décroissant.  
-  Énoncé complet : 025. Solution : 164626598910464.
+  Énoncé complet : 025. Solution : 167878069604336.
 
 ### Restriction
 
@@ -58,7 +58,7 @@
 - **Exercice 23**. Nombre de clients employés d'entreprise.  
   Énoncé complet : 075. Solution : 35875823604479.
 - **Exercice 24**. Nombre d'animateurs ayant exercé la responsabilité d'au moins une session.  
-  Énoncé complet : 044. Solution : 27715416342291.
+  Énoncé complet : 044. Solution : 78865790883231.
 
 ### Agrégation sans `GROUP BY` imbriquée
 
@@ -70,16 +70,16 @@
 ###  `GROUP BY` sans `HAVING`
 
 - **Exercice 27**. Pour chaque emploi, nombre d'animateurs qui l'occupent.  
-  Énoncé complet : 039. Solution : 233808147721964.
+  Énoncé complet : 039. Solution : 213717463157466.
 - **Exercice 28**. Pour chaque session de Nice, moyenne d'âge des animateurs.  
-  Énoncé complet : 005. Solution : 27863012067778.
+  Énoncé complet : 005. Solution : 27863012067785.
 
 ### `GROUP BY` avec `HAVING`
 
 - **Exercice 29**. Activités exercées par au moins trois entreprises.  
-  Énoncé complet : 021. Solution : 258931831344925.
+  Énoncé complet : 021. Solution : 258931831344922.
 - **Exercice 30**. Animateurs parisiens ayant été responsables de plus de quatre sessions parisiennes, avec le nombre de celles-ci.  
-  Énoncé complet : 068. Solution : 45243283356222.
+  Énoncé complet : 068. Solution : 45243283356226.
 
 ### Relation symétrique
 
@@ -94,18 +94,18 @@
 ### Questions _non_ classées par difficulté
 
 - **Exercice 34**. Pour chaque entreprise, nombre d'employés qui sont clients de la société de formation. Colonnes attendues : identifiant et raison de l'entreprise, nombre d'employés.  
-  Énoncé complet : 155. Solution : 9111771762332.
+  Énoncé complet : 155. Solution : 12529280485280.
 - **Exercice 35**. Titre des formations sans pré-requis.  
   Énoncé complet : 165. Solution : 246080130886204.
 - **Exercice 36**. Nombre de formations pour chaque thème, avec l'identifiant et le libellé de celui-ci.  
-  Énoncé complet : 195. Solution : 242860797676353.
+  Énoncé complet : 195. Solution : 242860797676346.
 - **Exercice 37**. Pour chaque animateur ayant été responsable d'au moins 5 sessions parisiennes, nombre total de subordonnés distincts dans ces sessions, classés par nombre de subordonnés décroissant.  
-  Énoncé complet : 124. Solution : 179380892567729.
+  Énoncé complet : 124. Solution : 179380892571516.
 - **Exercice 38**. Deux formations ont le même titre. Trouvez celui-ci, ainsi que l'identifiant de ces formations.  
   Énoncé complet : 111. Solution : 31793961828180.
 - **Exercice 39**. Nombre de sessions pour chaque thème, avec l'identifiant et le libellé de celui-ci.  
-  Énoncé complet : 138. Solution : 172006321856237.
+  Énoncé complet : 138. Solution : 172006321856006.
 - **Exercice 40**. Pourcentage de sessions placées sous la responsabilité d'une femme. La valeur cherchée doit être nommée `ratio` et comprise entre 0 et 100.  
-  Énoncé complet : 182. Solution : 195629287190133.
+  Énoncé complet : 182. Solution : 195629287188925.
 - **Exercice 41**. Vous avez trouvé un numéro de téléphone dont manque le dernier chiffre : « 07 00 55 55 7 ». Vous ne savez pas si son possesseur est un client ou un animateur. Renvoyez la liste des possibilités. Colonnes attendues : identifiant du possesseur, nom, type (client ou animateur) et téléphone.  
   Énoncé complet : 107. Solution : 158853303138975.
