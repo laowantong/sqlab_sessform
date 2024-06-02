@@ -88,7 +88,7 @@
 - **Exercice 32**. Identifiant et raison des entreprises sans entreprises concurrentes.  
   Énoncé complet : 094. Solution : 75342239292029.
 - **Exercice 33**. Nombre de concurrentes de l'entreprise « L'amour en vrac ».  
-  Énoncé complet : 087. Solution : 53595474351913.
+  Énoncé complet : 087. Solution : 53595474351911.
 
 ## Examen blanc
 ### Questions _non_ classées par difficulté
