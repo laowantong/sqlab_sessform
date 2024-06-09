@@ -5193,7 +5193,7 @@ INSERT INTO sqlab_msg (msg) VALUES
 
 INSERT INTO sqlab_info (name, value) VALUES
   ('description', 'A set of independant exercises + "Mortelles Sessions", a police investigation on a training company.'),
-  ('version', '2.0.1'),
+  ('version', '2.0.2'),
   ('repository', 'https://github.com/laowantong/sqlab_sessform'),
   ('license_name', 'CC BY-SA 4.0'),
   ('license_url', 'https://creativecommons.org/licenses/by-sa/4.0/'),
@@ -5208,8 +5208,8 @@ INSERT INTO sqlab_info (name, value) VALUES
   ('sqlab_database_language', 'fr'),
   ('dbms', 'MySQL'),
   ('dbms_version', '8.3.0'),
-  ('sqlab_version', '0.5.2'),
-  ('created_at', '2024-06-02T12:24:54.626607')
+  ('sqlab_version', '0.5.4'),
+  ('created_at', '2024-06-09T10:05:28.230640')
 ;
 
 
