@@ -84,7 +84,7 @@ La base inclut :
 
     Elle compte 36 épisodes, à travers lesquels vous progresserez en composant des requêtes de difficulté progressive.
 
-![Plan de la base](mysql/graph.svg)
+![Plan de la base](mysql/activity_map.svg)
 
 Le plan de la base (ci-dessus dans sa version MySQL) s'interprète ainsi :
 
