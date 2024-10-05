@@ -22,7 +22,7 @@ thème: tid, libellé
 df1, 11 formation, 1N thème
 formation: fid, titre, nb_jours, nb_anims, prix, prime
 df2, 11 session, 1N formation
-animer, 1N session, 1N animateur
+animer, 1N session, 1N animateur: nb_heures
 diriger, 11 session, 0N [-aid_resp] animateur
 
 :

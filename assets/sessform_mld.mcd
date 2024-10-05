@@ -1,0 +1,31 @@
+%%mocodo
+
+:
+client: cid, nom, sexe, âge, num_voie, voie, ville, tél, #eid > entreprise > eid, #cid_par > client > cid, date_par
+:
+inscrire: #cid > client > cid, _#sid > session > sid, date
+:
+session: sid, début, ville, nb_inscrits, #fid > formation > fid, #aid_resp > animateur > aid
+:
+animer: #sid > session > sid, _#aid > animateur > aid, nb_heures
+:
+
+:
+entreprise: eid, raison, activité, num_voie, voie, ville
+:
+prérequis: #fid > formation > fid, _#fid_req > formation > fid
+:
+formation: fid, titre, nb_jours, nb_anims, prix, prime, #tid > thème > tid
+:
+animateur: aid, nom, sexe, âge, job, num_voie, voie, ville, tél
+:
+
+:
+concurrentes: #eid 1 > entreprise > eid, _#eid 2 > entreprise > eid
+:
+intéresser: #eid > entreprise > eid, _#tid > thème > tid
+:
+thème: tid, libellé
+:
+maîtriser: #aid > animateur > aid, _#tid > thème > tid
+:

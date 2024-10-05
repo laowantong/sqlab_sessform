@@ -72,7 +72,7 @@
 - **Exercice 27**. Pour chaque emploi, nombre d'animateurs qui l'occupent.  
   Énoncé complet : 039. Solution : 228187753193732.
 - **Exercice 28**. Pour chaque session de Nice, moyenne d'âge des animateurs.  
-  Énoncé complet : 005. Solution : 30986935223884.
+  Énoncé complet : 005. Solution : 33230359114295.
 
 ### `GROUP BY` avec `HAVING`
 
@@ -100,7 +100,7 @@
 - **Exercice 36**. Nombre de formations pour chaque thème, avec l'identifiant et le libellé de celui-ci.  
   Énoncé complet : 195. Solution : 224545590069832.
 - **Exercice 37**. Pour chaque animateur ayant été responsable d'au moins 5 sessions parisiennes, nombre total de subordonnés distincts dans ces sessions, classés par nombre de subordonnés décroissant.  
-  Énoncé complet : 124. Solution : 185247021598183.
+  Énoncé complet : 124. Solution : 188924508214942.
 - **Exercice 38**. Deux formations ont le même titre. Trouvez celui-ci, ainsi que l'identifiant de ces formations.  
   Énoncé complet : 111. Solution : 31705244033350.
 - **Exercice 39**. Nombre de sessions pour chaque thème, avec l'identifiant et le libellé de celui-ci.  
