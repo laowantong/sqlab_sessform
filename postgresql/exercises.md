@@ -6,8 +6,8 @@
   Énoncé complet : 096. Solution : 277188057325886.
 - **Exercice 2**. Liste sans redondance des activités des entreprises.  
   Énoncé complet : 072. Solution : 193463557666227.
-- **Exercice 3**. Triez la table `formation` par thème (`tid`) croissant, puis prix décroissant, puis nombre de jours croissant.  
-  Énoncé complet : 025. Solution : 183113509967069.
+- **Exercice 3**. Triez la table `formation` par thème (`tid`) croissant, puis prime décroissante.  
+  Énoncé complet : 025. Solution : 168326256611363.
 
 ### Restriction
 
@@ -16,32 +16,32 @@
 - **Exercice 5**. Informations d'état-civil des clientes de province habitant bd Victor Hugo.  
   Énoncé complet : 014. Solution : 121547412884536.
 - **Exercice 6**. Titre, prix et durée des formations durant entre 8 et 18 jours.  
-  Énoncé complet : 009. Solution : 248047814572261.
+  Énoncé complet : 009. Solution : 247193911888893.
 - **Exercice 7**. Lignes de la table `client` où le prénom est « Pierre ».  
   Énoncé complet : 057. Solution : 90839909553096.
 - **Exercice 8**. Identifiant et ville des sessions ayant débuté le 8 janvier 2021.  
-  Énoncé complet : 042. Solution : 280810661380076.
+  Énoncé complet : 042. Solution : 281018453888195.
 - **Exercice 9**. Identifiant et date de début des sessions de 2022.  
-  Énoncé complet : 054. Solution : 56523494026760.
+  Énoncé complet : 054. Solution : 56286085856547.
 - **Exercice 10**. Identifiant, nom et âge des animateurs sans emploi.  
   Énoncé complet : 047. Solution : 77191907184689.
 - **Exercice 11**. Identifiant des sessions de Dijon, Rennes, Pau, Grenoble et Lyon.  
-  Énoncé complet : 017. Solution : 198349216940721.
+  Énoncé complet : 017. Solution : 198275908983463.
 
 ### Jointure
 
 - **Exercice 12**. Identifiant et ville des sessions de la formation « Illustrator ».  
-  Énoncé complet : 100. Solution : 50068316509299.
+  Énoncé complet : 100. Solution : 48932453202262.
 - **Exercice 13**. Identifiant, date de début et date de fin des sessions de la formation « Illustrator ».  
-  Énoncé complet : 043. Solution : 86020561798569.
+  Énoncé complet : 043. Solution : 84408293606034.
 - **Exercice 14**. Ville et nombre d'inscrits de la session `S123`, avec le nom de son animateur responsable.  
-  Énoncé complet : 027. Solution : 37656912964149.
+  Énoncé complet : 027. Solution : 38441838944686.
 - **Exercice 15**. Nom et prime de l'animateur responsable de la session `S123`.  
-  Énoncé complet : 006. Solution : 50472338226093.
+  Énoncé complet : 006. Solution : 50107414212049.
 - **Exercice 16**. Nom et date d'inscription des participants à une session de Nanterre, avec l'identifiant et la date de début de celle-ci.  
-  Énoncé complet : 040. Solution : 42814922775400.
+  Énoncé complet : 040. Solution : 43616003485368.
 - **Exercice 17**. Sessions plus suivies que la session S014, avec la différence en nombre d'inscrits.  
-  Énoncé complet : 076. Solution : 14765676305589.
+  Énoncé complet : 076. Solution : 28484100772591.
 - **Exercice 18**. Couples d'entreprises ayant même activité, avec cette activité.  
   Énoncé complet : 003. Solution : 73069103461713.
 - **Exercice 19**. Clients n'ayant réalisé aucune inscription.  
@@ -50,36 +50,36 @@
 ### Agrégation sans `GROUP BY`
 
 - **Exercice 20**. Nombre moyen d'inscrits.  
-  Énoncé complet : 085. Solution : 159182969997133.
+  Énoncé complet : 085. Solution : 160682924747511.
 - **Exercice 21**. Amplitude de la prime de responsabilité (différence entre primes maximale et minimale).  
-  Énoncé complet : 059. Solution : 45369726660515.
+  Énoncé complet : 059. Solution : 24614654721249.
 - **Exercice 22**. Nombre de clients employés d'entreprise.  
   Énoncé complet : 086. Solution : 22401682656901.
 - **Exercice 23**. Nombre de clients employés d'entreprise.  
   Énoncé complet : 075. Solution : 237198611917183.
 - **Exercice 24**. Nombre d'animateurs ayant exercé la responsabilité d'au moins une session.  
-  Énoncé complet : 044. Solution : 41309657266481.
+  Énoncé complet : 044. Solution : 43393727419483.
 
 ### Agrégation sans `GROUP BY` imbriquée
 
 - **Exercice 25**. Nom du responsable de la session la plus récente, avec l'identifiant et la date de début de celle-ci.  
-  Énoncé complet : 079. Solution : 37273556577796.
-- **Exercice 26**. Nom du responsable de la session « EMBA » la plus récente, l'identifiant, le `fid` et la date de début de celle-ci.  
-  Énoncé complet : 070. Solution : 92758902033365.
+  Énoncé complet : 079. Solution : 35375578974907.
+- **Exercice 26**. Nom du responsable de la session « F28 » la plus récente, l'identifiant, le `fid` et la date de début de celle-ci.  
+  Énoncé complet : 070. Solution : 93057717600341.
 
 ###  `GROUP BY` sans `HAVING`
 
 - **Exercice 27**. Pour chaque emploi, nombre d'animateurs qui l'occupent.  
   Énoncé complet : 039. Solution : 228187753193732.
 - **Exercice 28**. Pour chaque session de Nice, moyenne d'âge des animateurs.  
-  Énoncé complet : 005. Solution : 28963743944959.
+  Énoncé complet : 005. Solution : 23525733233588.
 
 ### `GROUP BY` avec `HAVING`
 
 - **Exercice 29**. Activités exercées par au moins trois entreprises.  
   Énoncé complet : 021. Solution : 258097437283038.
 - **Exercice 30**. Animateurs parisiens ayant été responsables de plus de quatre sessions parisiennes, avec le nombre de celles-ci.  
-  Énoncé complet : 068. Solution : 47153584798080.
+  Énoncé complet : 068. Solution : 45334040862479.
 
 ### Relation symétrique
 
@@ -96,16 +96,16 @@
 - **Exercice 34**. Pour chaque entreprise, nombre d'employés qui sont clients de la société de formation. Colonnes attendues : identifiant et raison de l'entreprise, nombre d'employés.  
   Énoncé complet : 155. Solution : 66357077558466.
 - **Exercice 35**. Titre des formations sans pré-requis.  
-  Énoncé complet : 165. Solution : 245953508436144.
+  Énoncé complet : 165. Solution : 244400261941146.
 - **Exercice 36**. Nombre de formations pour chaque thème, avec l'identifiant et le libellé de celui-ci.  
-  Énoncé complet : 195. Solution : 226103711343286.
+  Énoncé complet : 195. Solution : 226513923902074.
 - **Exercice 37**. Pour chaque animateur ayant été responsable d'au moins 5 sessions parisiennes, nombre total de subordonnés distincts dans ces sessions, classés par nombre de subordonnés décroissant.  
-  Énoncé complet : 124. Solution : 187732439486750.
+  Énoncé complet : 124. Solution : 176678189805962.
 - **Exercice 38**. Deux formations ont le même titre. Trouvez celui-ci, ainsi que l'identifiant de ces formations.  
-  Énoncé complet : 111. Solution : 31366715971326.
+  Énoncé complet : 111. Solution : 32371682665769.
 - **Exercice 39**. Nombre de sessions pour chaque thème, avec l'identifiant et le libellé de celui-ci.  
-  Énoncé complet : 138. Solution : 185919368669078.
+  Énoncé complet : 138. Solution : 151183674215117.
 - **Exercice 40**. Pourcentage de sessions placées sous la responsabilité d'une femme. La valeur cherchée doit être nommée `ratio` et comprise entre 0 et 100.  
-  Énoncé complet : 182. Solution : 130193927804965.
+  Énoncé complet : 182. Solution : 126797745536179.
 - **Exercice 41**. Vous avez trouvé un numéro de téléphone dont manque le dernier chiffre : « 07 00 55 55 7 ». Vous ne savez pas si son possesseur est un client ou un animateur. Renvoyez la liste des possibilités. Colonnes attendues : identifiant du possesseur, nom, type (client ou animateur) et téléphone.  
   Énoncé complet : 107. Solution : 158853303138975.
