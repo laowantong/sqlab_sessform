@@ -53,6 +53,7 @@ Trois cas peuvent alors se présenter :
 - 🟠 Votre réponse est presque juste, et le système vous donne une piste.
 - 🟢 Votre réponse est juste, et le système vous félicite, affiche la correction officielle et, le cas échéant, l'épisode suivant.
 
+<!---
 ## Récupération de la base `sessform`
 
 La base de données est actuellement disponible en deux versions :
@@ -68,12 +69,13 @@ La base de données est actuellement disponible en deux versions :
    psql -U username -f dump.sql
    psql -U username sessform
    ```
+-->
 
 ## Contenu de la boîte
 
 La base inclut :
 
-1. des exercices indépendants (énoncés [pour MySQL](mysql/exercises.md) et [pour PostgreSQL](postgresql/exercises.md)) :
+1. des exercices indépendants (énoncés [pour MySQL](mysql/exercises.md)<!--- et [pour PostgreSQL](postgresql/exercises.md)-->) :
     - une trentaine de niveau élémentaire (tokens entre 1 et 99). Chacun ne présente qu'une seule difficulté et a pour but de rafraîchir vos souvenirs du cours. Ils constituent une sorte de tutoriel ;
     - une dizaine d'exercices de niveau plus avancé (tokens entre 100 et 199). Chacun combine plusieurs notions de base. Vous pouvez voir l'ensemble comme une sorte d'examen blanc ;
 2. une enquête policière, _Mortelles Sessions_ (tokens entre 200 et 299). Pour accéder au premier épisode, exécutez :
