@@ -3,7 +3,7 @@ concurrentes, 0N entreprise, 0N entreprise
 entreprise: eid, raison, activité, num_voie, voie, ville
 employer, 01 client, 0N entreprise
 client: cid, nom, sexe, âge, num_voie, voie, ville, tél
-parrainer, 01 client, 0N [-cid_par] client: date_par
+parrainer, 01 client, 0N [-cid_parrain] client: date_parrainage
 :
 
 :

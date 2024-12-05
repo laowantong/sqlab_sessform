@@ -1,7 +1,7 @@
 %%mocodo
 
 :
-client: cid, nom, sexe, âge, num_voie, voie, ville, tél, #eid > entreprise > eid, #cid_par > client > cid, date_par
+client: cid, nom, sexe, âge, num_voie, voie, ville, tél, #eid > entreprise > eid, #cid_parrain > client > cid, date_parrainage
 :
 inscrire: #cid > client > cid, _#sid > session > sid, date
 :
