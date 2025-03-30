@@ -7,7 +7,7 @@ inscrire: #cid > client > cid, _#sid > session > sid, date
 :
 session: sid, début, ville, nb_inscrits, #fid > formation > fid, #aid_resp > animateur > aid
 :
-animer: #sid > session > sid, _#aid > animateur > aid, nb_heures
+animateur: aid, nom, sexe, âge, job, num_voie, voie, ville, tél
 :
 
 :
@@ -17,7 +17,7 @@ prérequis: #fid > formation > fid, _#fid_req > formation > fid
 :
 formation: fid, titre, nb_jours, nb_anims, prix, prime, #tid > thème > tid
 :
-animateur: aid, nom, sexe, âge, job, num_voie, voie, ville, tél
+animer: #sid > session > sid, _#aid > animateur > aid, nb_heures
 :
 
 :
