@@ -53,7 +53,6 @@ Trois cas peuvent alors se présenter :
 - 🟠 Votre réponse est presque juste, et le système vous donne une piste.
 - 🟢 Votre réponse est juste, et le système vous félicite, affiche la correction officielle et, le cas échéant, l'épisode suivant.
 
-<!---
 ## Récupération de la base `sessform`
 
 La base de données est actuellement disponible en deux versions :
@@ -69,7 +68,6 @@ La base de données est actuellement disponible en deux versions :
    psql -U username -f dump.sql
    psql -U username sessform
    ```
--->
 
 ## Contenu de la boîte
 
