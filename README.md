@@ -89,10 +89,11 @@ La base inclut :
 Le plan de la base (ci-dessus dans sa version MySQL) s'interprète ainsi :
 
 - Chaque sommet représente une question.
-- Les verts sont des points d'entrée : ils portent un numéro qui sert aussi de token d'accès.
-- Les rouges sont également numérotés, mais ne peuvent être atteints qu'en ayant suivi un chemin d'arcs depuis un sommet vert, autrement dit, en ayant résolu toutes les questions précédentes.
+- Les sommets verts et rouges portent deux entiers : leur sel (à l'intérieur) et leur numéro (au-dessus, à gauche).
+- Les verts sont des points d'entrée. Leur sel sert aussi de token d'accès.
+- On ne peut accéder aux rouges qu'en ayant suivi un chemin d'arcs depuis un sommet vert, autrement dit, en ayant résolu toutes les questions précédentes.
 - Certains arcs sont multiples, ce qui signifie que la solution admet une ou plusieurs variantes (qui vous seront systématiquement présentées dans la correction).
-- Les petits sommets blancs représentent les erreurs pour lesquelles une indication a été prévue dans la base. Comme la plupart correspondent à des erreurs réellement commises par des étudiants, vous pouvez considérer leur nombre comme plus ou moins proportionnel à la difficulté.
+- Les petits sommets blancs représentent les erreurs pour lesquelles une indication a été prévue dans la base. Comme la plupart correspondent à des erreurs réellement commises par des étudiants, vous pouvez considérer leur nombre (indiqué au milieu) comme plus ou moins proportionnel à la difficulté.
 - Quand vous arrivez à une étoile, vous avez fini soit un exercice, soit l'aventure complète !
 
 
