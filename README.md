@@ -59,15 +59,17 @@ La base de données est actuellement disponible en deux versions :
 
 1. Pour MySQL 8 ou supérieur : [téléchargez mysql/dump.sql](https://raw.githubusercontent.com/laowantong/sqlab_sessform/main/mysql/dump.sql) (clic droit / « Télécharger le fichier lien sous… ») et exécutez :
     ```bash
-    mysql -u username -p < dump.sql
-    mysql -u username -p sessform
+    read -p "Username: " USERNAME
+    mysql -u "$USERNAME" -p < dump.sql
+    mysql -u "$USERNAME" -p sessform
     ```
 
 2. Pour PostgreSQL : [téléchargez postgresql/dump.sql](https://raw.githubusercontent.com/laowantong/sqlab_sessform/main/postgresql/dump.sql) (clic droit / « Télécharger le fichier lien sous… ») et exécutez :
     ```bash
-   psql -U username -f dump.sql
-   psql -U username sessform
-   ```
+    read -p "Username: " USERNAME
+    psql -U "$USERNAME" -f dump.sql
+    psql -U "$USERNAME" sessform
+    ```
 
 ## Contenu de la boîte
 
