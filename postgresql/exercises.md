@@ -1,16 +1,9 @@
-
-## Tutoriel
-### Projection
-
 - **Exercice 1**. Donnez l'identifiant, la raison, l'activité et la ville de toutes les entreprises.  
   Énoncé complet : 096. Solution : 277188057325886.
 - **Exercice 2**. Liste sans redondance des activités des entreprises.  
   Énoncé complet : 072. Solution : 193463557666227.
 - **Exercice 3**. Triez la table `formation` par thème (`tid`) croissant, puis prime décroissante.  
   Énoncé complet : 025. Solution : 168326256611363.
-
-### Restriction
-
 - **Exercice 4**. Nom et identifiant des animateurs parisiens.  
   Énoncé complet : 081. Solution : 187585923555809.
 - **Exercice 5**. Informations d'état-civil des clientes de province habitant bd Victor Hugo.  
@@ -27,9 +20,6 @@
   Énoncé complet : 047. Solution : 77191907184689.
 - **Exercice 11**. Identifiant des sessions de Dijon, Rennes, Pau, Grenoble et Lyon.  
   Énoncé complet : 017. Solution : 198275908983463.
-
-### Jointure
-
 - **Exercice 12**. Identifiant et ville des sessions de la formation « Illustrator ».  
   Énoncé complet : 100. Solution : 48932453202262.
 - **Exercice 13**. Identifiant, date de début et date de fin des sessions de la formation « Illustrator ».  
@@ -46,9 +36,6 @@
   Énoncé complet : 003. Solution : 73069103461713.
 - **Exercice 19**. Clients n'ayant réalisé aucune inscription.  
   Énoncé complet : 026. Solution : 109257705314666.
-
-### Agrégation sans `GROUP BY`
-
 - **Exercice 20**. Nombre moyen d'inscrits.  
   Énoncé complet : 085. Solution : 160682924747511.
 - **Exercice 21**. Amplitude de la prime de responsabilité (différence entre primes maximale et minimale).  
@@ -59,40 +46,24 @@
   Énoncé complet : 075. Solution : 237198611917183.
 - **Exercice 24**. Nombre d'animateurs ayant exercé la responsabilité d'au moins une session.  
   Énoncé complet : 044. Solution : 43393727419483.
-
-### Agrégation sans `GROUP BY` imbriquée
-
 - **Exercice 25**. Nom du responsable de la session la plus récente, avec l'identifiant et la date de début de celle-ci.  
   Énoncé complet : 079. Solution : 35375578974907.
 - **Exercice 26**. Nom du responsable de la session « F28 » la plus récente, l'identifiant, le `fid` et la date de début de celle-ci.  
   Énoncé complet : 070. Solution : 93057717600341.
-
-###  `GROUP BY` sans `HAVING`
-
 - **Exercice 27**. Pour chaque emploi, nombre d'animateurs qui l'occupent.  
   Énoncé complet : 039. Solution : 228187753193732.
 - **Exercice 28**. Pour chaque session de Nice, moyenne d'âge des animateurs.  
   Énoncé complet : 005. Solution : 23525733233588.
-
-### `GROUP BY` avec `HAVING`
-
 - **Exercice 29**. Activités exercées par au moins trois entreprises.  
   Énoncé complet : 021. Solution : 258097437283038.
 - **Exercice 30**. Animateurs parisiens ayant été responsables de plus de quatre sessions parisiennes, avec le nombre de celles-ci.  
   Énoncé complet : 068. Solution : 45334040862479.
-
-### Relation symétrique
-
 - **Exercice 31**. Raison des concurrentes de l'entreprise « L'amour en vrac ».  
   Énoncé complet : 067. Solution : 132630497279838.
 - **Exercice 32**. Identifiant et raison des entreprises sans entreprises concurrentes.  
   Énoncé complet : 094. Solution : 75342239292029.
 - **Exercice 33**. Nombre de concurrentes de l'entreprise « L'amour en vrac ».  
   Énoncé complet : 087. Solution : 55736138018853.
-
-## Examen blanc
-### Questions _non_ classées par difficulté
-
 - **Exercice 34**. Pour chaque entreprise, nombre d'employés qui sont clients de la société de formation. Colonnes attendues : identifiant et raison de l'entreprise, nombre d'employés.  
   Énoncé complet : 155. Solution : 66357077558466.
 - **Exercice 35**. Titre des formations sans pré-requis.  
