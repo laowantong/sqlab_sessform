@@ -7,7 +7,7 @@
 /*!40101 SET NAMES utf8mb4 */;
 
 DROP DATABASE IF EXISTS `sessform`;
-CREATE DATABASE `sessform` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+CREATE DATABASE `sessform` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE `sessform`;
 
 CREATE TABLE `animateur` (
@@ -15,7 +15,7 @@ CREATE TABLE `animateur` (
   `nom` varchar(128) NOT NULL,
   `sexe` enum('M','F','X') DEFAULT NULL,
   `âge` tinyint UNSIGNED NOT NULL,
-  `job` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `job` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `num_voie` varchar(10) NOT NULL,
   `voie` varchar(128) NOT NULL,
   `ville` varchar(128) NOT NULL,
@@ -38,9 +38,9 @@ CREATE TABLE `client` (
   `num_voie` varchar(10) NOT NULL,
   `voie` varchar(128) NOT NULL,
   `ville` varchar(128) NOT NULL,
-  `tél` char(14) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `eid` char(3) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `cid_parrain` char(4) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `tél` char(14) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `eid` char(3) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `cid_parrain` char(4) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `date_parrainage` date DEFAULT NULL,
   `hash` bigint NULL
 ) ENGINE=InnoDB;
@@ -164,14 +164,14 @@ ALTER TABLE `prérequis`
 DROP TABLE IF EXISTS sqlab_msg;
 CREATE TABLE sqlab_msg (
   msg blob NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 DROP TABLE IF EXISTS sqlab_metadata;
 CREATE TABLE sqlab_metadata (
   name varchar(64) NOT NULL,
   value text NOT NULL,
   PRIMARY KEY (name)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
 CREATE FUNCTION nn(x BIGINT) RETURNS BIGINT DETERMINISTIC 
